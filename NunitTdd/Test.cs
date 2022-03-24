@@ -13,5 +13,9 @@ namespace NunitTdd
         {
 
         }
+        public void B()
+        {
+
+        }
     }
 }
