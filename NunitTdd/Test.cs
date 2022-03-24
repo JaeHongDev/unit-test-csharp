@@ -9,5 +9,9 @@ namespace NunitTdd
         public void TestCase()
         {
         }
+        public void A()
+        {
+
+        }
     }
 }
