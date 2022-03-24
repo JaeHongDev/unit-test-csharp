@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.21
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NunitTdd", "NunitTdd\NunitTdd.csproj", "{A8500C42-32BA-4D1E-9DD8-9B625D9B2461}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8500C42-32BA-4D1E-9DD8-9B625D9B2461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8500C42-32BA-4D1E-9DD8-9B625D9B2461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8500C42-32BA-4D1E-9DD8-9B625D9B2461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8500C42-32BA-4D1E-9DD8-9B625D9B2461}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E600A09-6193-4911-A2A7-71AA69835DE2}
+	EndGlobalSection
+EndGlobal
