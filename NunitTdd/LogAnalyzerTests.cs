@@ -45,6 +45,12 @@ namespace NunitTdd
     internal class LogAnalyzer
     {
         private bool wasLastFileNameValid;
+        private StubExtensionManage myFakeManager;
+
+        public LogAnalyzer(StubExtensionManage myFakeManager)
+        {
+            this.myFakeManager = myFakeManager;
+        }
 
         public bool WasLastFileNameValid {
             get => wasLastFileNameValid;
