@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace NunitTdd
 {
     [TestFixture]
-    public class LogAnalyzerTests
+    public class LogAnalyzerTest
     {
         private LogAnalyzer m_analyzer = null;
 
@@ -12,7 +12,7 @@ namespace NunitTdd
         public void Setup()
         {
             Console.WriteLine("setup");
-            m_analyzer = new LogAnalyzer();
+            //m_analyzer = new LogAnalyzer();
         }
         [TearDown]
         public void Teardown()

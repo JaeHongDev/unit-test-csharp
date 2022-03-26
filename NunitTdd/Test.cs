@@ -13,7 +13,7 @@ namespace NunitTdd
     }
 
 
-    public class FileExtensionManager : IExtensionManager
+    internal class FileExtensionManager : IExtensionManager
     {
         public bool IsValid(string fileName)
         {
@@ -21,12 +21,12 @@ namespace NunitTdd
         }
     }
 
-    public interface IExtensionManager
+    internal interface IExtensionManager
     {
         bool IsValid(string fileName);
     }
 
-    public class StubExtensionManage : IExtensionManager
+    internal class StubExtensionManage : IExtensionManager
     {
         public bool ShouldExtensionBeValid { get; internal set; }
 
@@ -36,7 +36,7 @@ namespace NunitTdd
         }
     }
 
-    public class LogAnalzyer
+    internal class LogAnalzyer
     {
         private IExtensionManager manager;
         public LogAnalzyer()
